@@ -2,6 +2,14 @@ from src.utils.helper_functions import read_file
 
 
 def day_1_a(path):
+    """
+    Consecutive increase in depth
+    Args:
+        path: Data path
+
+    Returns:
+
+    """
     data = read_file(path=path)
 
     count_increase = 0
@@ -12,6 +20,14 @@ def day_1_a(path):
 
 
 def day_1_b(path):
+    """
+    Window of size 3 increase in depth
+    Args:
+        path: Data path
+
+    Returns:
+
+    """
     data = read_file(path=path)
 
     count_increase = 0
